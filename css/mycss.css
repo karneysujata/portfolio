@@ -1,6 +1,7 @@
 .bgm{
    background-image: url('../images/background.png');
    height: 100%;
+   padding-bottom: 60px;
    background-position: center;
    background-repeat: no-repeat;
    background-size: cover;
@@ -32,4 +33,22 @@ padding-bottom: 20%;
   position: fixed;
   top: 0;
   width: 100%;
+}
+.edu-center{
+  padding-left: 20%
+}
+.body-bg{
+  background: #bdc3c7!important
+}
+.header{
+  color:#d35400;
+}
+.edu{
+  background:#d1ccc0;
+}
+.cntc{
+  background:#aaa69d
+}
+.mail{
+  margin-left: 20%;
 }

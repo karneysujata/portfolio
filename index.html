@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
     <title> Karney Sujata</title>
   </head>
-  <body>
+  <body class="body-bg">
       <!-- navigation bar -->
       <nav class="navbar navbar-dark bg-dark navbar-expand-lg ">
         <a class="navbar-brand pl-5 ml-5" href="#">Sujata Karney</a>
@@ -16,14 +16,8 @@
         </button>
         <div class="collapse navbar-collapse"id="navbarSupportedContent">
           <ul class="navbar-nav ml-auto mr-5 pr-5">
-            <li class="nav-item active">
+            <li class="nav-item activ">
               <a class="nav-link" href="#technologies">Technologies</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Courses</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Experience</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#education">Education</a>
@@ -52,23 +46,26 @@
           <img src="images/myimg.jpg" class="rounded-circle" width="250" height="236">
         </div>
         <div class="col-sm-9">
-          <h1 > About Me </h1>
-          <p class="text-muted">Hi, I'm sujata. My adventure with programing began a few years back which made me land as a Computer Science Graduate from University of Nebraska at Omaha. I designed several applications that helped me attain good programming skills. </p>
-          <p class="text-muted"> I have been learning Multiple Coding languages from 2013.  I am looking for a job as a Junior Java developer / Front-end Developer or similar Positions. </p>
-          <p class="text-muted"> Have a look at my profile and Contact me if you feel I'm deserving candidate </p>
-              <p class="text-muted text-right">Sincerely, <br />Sujata Karney</p>
+          <h1 class="header text-center"> About Me </h1>
+          <p class="text-muted">Hi, I'm sujata. My adventure with programing began a few years back which made me land as a Computer Science Graduate from University of Nebraska at Omaha. I designed several applications that helped me attain good programming skills.
+          <br>
+          I have been learning Multiple Coding languages from 2013.  I am looking for a job as a Junior Java developer / Front-end Developer or similar Positions.
+          <br>
+          Have a look at my profile and Contact me if you feel I'm deserving candidate </p>
+          <p class="text-muted text-right">Sincerely, <br />Sujata Karney</p>
         </div>
       </div>
     </div>
     <!-- Technologies -->
     <div class="container" id ="technologies">
+      <h1 class="text-center header"> Technologies </h1>
       <div class= "row">
         <div class="col-sm-1">
         </div>
         <!-- java -->
         <div class="col-sm-4">
-          <h2>Java </h2>
-          <ul>
+          <h2 class="head">Java </h2>
+          <ul >
             <li> Core Java</li>
             <li>Spring Framework</li>
             <li>Hibernate</li>
@@ -79,17 +76,18 @@
         </div>
         <!-- front-end -->
         <div class="col-sm-4">
-          <h2> Front-End </h2>
+          <h2 class="head"> Front-End </h2>
           <ul>
             <li> HTML </li>
             <li> CSS </li>
             <li> Java Script </li>
             <li> Bootstrap </li>
+            <li> Font Awesome </li>
           </ul>
         </div>
         <!-- python -->
         <div class="col-sm-2">
-            <h2>Python</h2>
+            <h2 class="head">Python</h2>
             <ul>
               <li>Django</li>
             </ul>
@@ -102,14 +100,14 @@
         </div>
           <!-- Database -->
         <div class="col-sm-4">
-          <h2> Database </h2>
+          <h2 class="head"> Database </h2>
           <ul>
             <li> MySQL </li>
             <li> MySQL Workbench </li>
         </div>
           <!-- Others -->
          <div class="col-sm-4">
-           <h2> Others </h2>
+           <h2 class="head"> Others </h2>
            <ul>
              <li> Git </li>
              <li> Android </li>
@@ -119,22 +117,42 @@
       </div>
     </div>
     <!-- Education -->
-    <div class="container jumbotron" id="education">
-      <div class="row">
+    <div class="container jumbotron edu"id="education">
+        <h1 class="header text-center">Education </h1>
+      <div class="d-flex justify-content-center">
+        <div class="row mt-3">
+          <img src="images/uno.jpg" class="rounded-circle" width="220" height="200">
+          <p class="m-5 5 0 0">
+            <i>University Of Nebraska at Omaha </i><br>
+            2016-2018 <br>
+            <strong>Degree :</strong> Master's<br>
+            <strong>Specialization : </strong>Computer Science
+        </p>
+        </div>
+      </div>
+      <div class="d-flex justify-content-center">
+        <div class="row mt-3">
+          <img src="images/jntu.jpg" class="rounded-circle" width="220" height="200">
+          <p class="m-5 5 0 0">
+            <i>Jawaharlal Nehru Technological University<i> <br>
+            2012-2016 <br>
+            <strong>Degree :</strong> Bachelor's<br>
+            <strong>Specialization : </strong>Computer Science
+        </p>
+        </div>
       </div>
     </div>
 
     <!-- Contact me -->
-    <div class="container jumbotron" id="contact">
-      <div class="row">
-        <div class="col-sm-3 offset">
+    <div class="container-fluid jumbotron cntc" id="contact">
+      <h2 class="text-center header"> Ping me </h2>
+      <div class="row mail">
           <form action="https://formspree.io/karneysujata@gmail.com"method="POST">
-              Your Name:<input type="text" name="name">
+              Your Name:<input type="text" name="name"><br>
               <br>
-              Enter your message:<input type="text" name="message">
+              Enter your message:<input type="text" name="message"> <br>
               <br>
               <input type="submit" value="Send">
           </form>
-        </div>
       </div>
     </div>
